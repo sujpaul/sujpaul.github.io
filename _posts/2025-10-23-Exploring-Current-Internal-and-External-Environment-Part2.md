@@ -11,7 +11,7 @@ toc_sticky: true         # ✅ Keeps TOC visible as you scroll (nice for long po
 
 In the previous blog Exploring Current Business Internal and External Environment (Part 1), I discussed about the external factors to consider in developing the strategy.  In this blog, I will discuss the internal factors.
 
-## Lights on {#Lights on}
+## Lights on
 
 Now that you have an understanding at a high level, the next thing that I do is to understand how work gets done.  This opens up a smorgasbord of information, the different dynamics that exist and the culture of the organisation that is driving how work is carried out and what others think about each other and how, above all else, customers are served and products delivered. If fact-based management is the reason you have been tasked to do the strategy, then data gathering is a crucial component in your tool kit. It is at this data gathering phase that there will be road bumps.  Some will be willing to share the data and knowledge while others might be reticent in sharing the information. And you can begin to see the culture of the place! So, having the appropriate air cover from the crucial superiors, coupled with diplomatic skills, will help to navigate the terrain while you try to understand and fit into the culture.
 
@@ -197,7 +197,7 @@ The crux of the matter in strategy is to generate value.  This can be done eithe
 EBIT= (revenue-cost of sales)-operating expenses=(gross profit-operating expenses)*
 
 
-### Return of Investment (ROI) {#Return of Investment (ROI)}
+### Return of Investment (ROI)
 
 AI algorithms, and that includes LLMs as mentioned earlier, are stochastic(probabilistic) by nature and hence they can generate misleading or inaccurate outcomes.  When prompted LLM models, can make up information if they are not aware, a process known as hallucination.  As such, considerations should be made of both the tangible and intangible benefits that can be accrued while remaining vigilant on the negative implications of deploying such applications.  While the race is on, it’s even more important to ensure that a valid business case is made even at the project levels that aligns with the organizational strategy.  Fear of missing out should not be the reason for embarking on an AI solution specially if the domain that you are working on, AI is not the core process but an enabler.  This should not deter you from traversing the path.  However, with the advent of any new technologies there are concerns that employees and society at large might have.  While some might be beyond our control, business transformation is an essential ingredient of any organization that strategically decides to traverse the path.
 
