@@ -17,7 +17,7 @@ Now that you have an understanding at a high level, the next thing that I do is 
 
 Lean Six Sigma principles help in uncovering the workflow processes. There are 2 different ways by which this can be tackled.  You have already uncovered the Value Proposition by interacting with marketers to know the 4Ps and have an understanding of what constitutes the DNA of the organisation.  Along with this, the vision, purpose and the values are already there in the web site, so people are aware.  If employees are unaware, then this is something that needs to be revisited by including them in preparing the vision and purpose.  
 
-***Note***:  *It is incumbent on leadership to ensure that employees are enlightened with strategy so that they know and understand that what they are doing is tied to the organizational goals and aligned with the values.*  
+***Note***:  *Usually leadership enlightens the employees with strategy so that they know and understand that what they are doing is tied to the organizational goals and aligned with the values.*  
 
 ***Tip***: *One way of ensuring this is to use collaborative tools like Slack, Teams or Discord to celebrate successes that are aligned with goals and values, like collaboration, are mentioned in the channels for people to be recognised and everyone to see.*
 
