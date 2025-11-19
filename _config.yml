@@ -42,30 +42,29 @@ toc:
   icon: "fas fa-list-ul"
   sticky: true
 
-# More permissive CSP for Giscus
-content_security_policy:
-  script-src: "'self' 'unsafe-eval' https://giscus.app https://*.giscus.app"
-  child-src: "'self' https://giscus.app"
-  connect-src: "'self' https://giscus.app"
-
 # Temporary debug
-giscus_debug:
-  repo: "sujpaul/ai-blogdiscussions"
-  repo_id: "R_kgDOQY-Z4w"
-  category_id: "DIC_kwDOQY-Z484Cx-Lb"
+#giscus_debug:
+ # repo: "sujpaul/ai-blogdiscussions"
+ # repo_id: "R_kgDOQY-Z4w"
+ # category_id: "DIC_kwDOQY-Z484Cx-Lb"
 
 # Comments (Giscus)
+#comments:
+ # giscus:
+ #   repo: "sujpaul/ai-blogdiscussions"
+ #   repo_id: "R_kgDOQY-Z4w"
+ #   category: "Comments&Discussions"
+ #   category_id: "DIC_kwDOQY-Z484Cx-Lb"
+ #   mapping: "pathname"
+ #   reactions_enabled: 1
+ #   theme: "preferred_color_scheme"
+
 comments:
-  giscus:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
     repo: "sujpaul/ai-blogdiscussions"
-    repo_id: "R_kgDOQY-Z4w"
-    category: "Comments&Discussions"
-    category_id: "DIC_kwDOQY-Z484Cx-Lb"
-    mapping: "pathname"
-    reactions_enabled: 1
-    theme: "preferred_color_scheme"
-
-
 # Default Front Matter
 defaults:
   - scope:
