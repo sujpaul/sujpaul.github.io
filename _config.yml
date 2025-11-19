@@ -44,12 +44,11 @@ toc:
 
 # Comments (Giscus)
 comments:
-  provider: "giscus"
   giscus:
-    repo: "sujpaul/sujpaul.github.io"  # Your blog repository
-    repo_id: "R_kgDOQYedEg"             # You'll get this from setup
+    repo: "sujpaul/ai-blog-comments"
+    repo_id: "R_kgDOQYedEg"
     category: "Comments"
-    category_id: "DIC_kwDOQYedEs4Cx8pH"     # You'll get this from setup
+    category_id: "DIC_kwDOQYedEs4Cx8pH"
     mapping: "pathname"
     reactions_enabled: 1
     theme: "preferred_color_scheme"
