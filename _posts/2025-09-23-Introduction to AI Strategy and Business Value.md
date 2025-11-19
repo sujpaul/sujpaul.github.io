@@ -743,7 +743,7 @@ can be taken to generate value.
 
 The complete code and analysis tool is available on GitHub:
 
-**[Introduction to AI Strategy and Business Valuey](https://github.com/sujpaul/AI-Strategy)**
+**[Introduction to AI Strategy and Business Value](https://github.com/sujpaul/AI-Strategy)**
 
 ## References {#references} 
 1.
