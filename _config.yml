@@ -21,7 +21,8 @@ author:
     - #label: "GitHub"
       #icon: "fab fa-fw fa-github"
       #url: "https://github.com/sujoypaul"
-
+# DEBUG: Test if comments are processing
+debug_comments: true
 # Theme Settings - USE THIS FOR GITHUB PAGES
 remote_theme: "mmistakes/minimal-mistakes"
 # Theme Settings
@@ -35,6 +36,7 @@ highlighter: rouge
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Table of Contents
 toc:
