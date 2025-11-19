@@ -45,10 +45,10 @@ toc:
 # Comments (Giscus)
 comments:
   giscus:
-    repo: "sujpaul/ai-blog-comments"
-    repo_id: "R_kgDOQYedEg"
-    category: "Comments"
-    category_id: "DIC_kwDOQYedEs4Cx8pH"
+    repo: "sujpaul/ai-blogdiscussions"
+    repo_id: "R_kgDOQY-Z4w"
+    category: "Comments&Discussions"
+    category_id: "Comments&Discussions"
     mapping: "pathname"
     reactions_enabled: 1
     theme: "preferred_color_scheme"
