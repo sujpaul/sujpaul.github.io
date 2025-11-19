@@ -42,6 +42,12 @@ toc:
   icon: "fas fa-list-ul"
   sticky: true
 
+# More permissive CSP for Giscus
+content_security_policy:
+  script-src: "'self' 'unsafe-eval' https://giscus.app https://*.giscus.app"
+  child-src: "'self' https://giscus.app"
+  connect-src: "'self' https://giscus.app"
+  
 # Comments (Giscus)
 comments:
   giscus:
@@ -52,6 +58,7 @@ comments:
     mapping: "pathname"
     reactions_enabled: 1
     theme: "preferred_color_scheme"
+
 
 # Default Front Matter
 defaults:
