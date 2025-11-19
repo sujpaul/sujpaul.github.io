@@ -491,7 +491,7 @@ You can see by including MFP in the calculation, the ROI has improved 57 %( [275
 
 The complete code and analysis tool is available on GitHub:
 
-**[Exploring Current Business Internal and External Environment (Part 2)](https://github.com/sujpaul/AI-External-analysis)**
+**[Exploring Current Business Internal and External Environment (Part 2)](https://github.com/sujpaul/AI-Internal-analysis)**
 
 
 ## References {#references} 

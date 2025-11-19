@@ -739,6 +739,12 @@ In the next chapter, I will discuss how to explore the current status of
 the organization, find the gaps in the current process and what actions
 can be taken to generate value.
 
+## 🔗 Code Repository
+
+The complete code and analysis tool is available on GitHub:
+
+**[Introduction to AI Strategy and Business Valuey](https://github.com/sujpaul/AI-Strategy)**
+
 ## References {#references} 
 1.
 <https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html#returns>

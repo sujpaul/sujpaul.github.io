@@ -185,6 +185,12 @@ Figure 2 shows the incorporation of Responsible AI into PESTLE
 
 In the future blog I will dive into the internal factors that shape the organization. 
 
+## 🔗 Code Repository
+
+The complete code and analysis tool is available on GitHub:
+
+**[Exploring Current Business Internal and External Environment (Part 1)](https://github.com/sujpaul/AI-External-analysis)**
+
 ## References {#references} 
 1\. <https://www.investors.com/news/sp-500-palantir-2024-stocks/>
 
