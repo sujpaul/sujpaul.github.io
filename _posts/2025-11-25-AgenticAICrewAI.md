@@ -19,13 +19,13 @@ With the progression from the initial usage of static prompt response from LLM t
 Cheng et al [1] states that “ any entity capable of perceiving its environment and taking action can be considered an agent. Agents have the autonomy to carry out tasks in diverse environments, relying on their past experiences and knowledge to make decisions that align with predefined objectives.”
 Agents generally exhibit the following characteristics as mentioned in the above statement:
 
-•	Perception: This is where the model tries to interpret or perceive the environment by extracting the raw input data and converting to meaningful data structures for making decisions
+*Perception: This is where the model tries to interpret or perceive the environment by extracting the raw input data and converting to meaningful data structures for making decisions
 
-•	Decision-making:  This is where it tries to understand the goal before the tasks start to plan and break it down. Tasks are prioritized and reasoning happens without external intervention. It also tries to manage uncertainty and adaptability.
+*Decision-making:  This is where it tries to understand the goal before the tasks start to plan and break it down. Tasks are prioritized and reasoning happens without external intervention. It also tries to manage uncertainty and adaptability.
 
-•	Action: This is where the tasks are executed and modifies the environment based on the decisions.  It uses various tools to deliver a formatted output. 
+*Action: This is where the tasks are executed and modifies the environment based on the decisions.  It uses various tools to deliver a formatted output. 
 
-•	Autonomy:  The agent makes use of both the decision-making and action characteristics.  It is here that it decides to augment and self-correct its behaviour by self-learning and other tools like (react, reflexion, plan-execute)
+*Autonomy:  The agent makes use of both the decision-making and action characteristics.  It is here that it decides to augment and self-correct its behaviour by self-learning and other tools like (react, reflexion, plan-execute)
 
 Agentic AI, therefore, represents an evolution from traditional AI agents by integrating the strengths of LLMs with the adaptive and reflective capacities of agents. This synergy allows Agentic AI to not only perform tasks autonomously but also to learn from interactions, adjust strategies in real-time, and collaborate effectively with other agents or humans. By leveraging both structured reasoning and flexible problem-solving, Agentic AI stands out as a more dynamic and capable approach within the field of artificial intelligence. The difference between Agentic AI and AI Agents are shown in the following Figure 1.[5]
 
