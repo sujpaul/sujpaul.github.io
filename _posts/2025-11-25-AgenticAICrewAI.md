@@ -160,7 +160,9 @@ The main consideration of the summary report with 2 distinct cases that demonstr
 
 ## 🔗 Code Repository
 
-The complete code and analysis tool is available in Github.
+The complete code and analysis tool is available on GitHub:
+
+**[Creating a Report Summary with CrewAI- framework for AgenticAI](https://github.com/sujpaul/ai_blogsummary)**
 
 REFERENCES
 
