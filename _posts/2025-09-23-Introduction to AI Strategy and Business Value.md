@@ -780,3 +780,11 @@ Models](https://arxiv.org/abs/2108.07258)
 8\. Hands-on large language models: language understanding and generation, Alammar, Jay., Grootendorst, Maarten, Sebastopol, CA., O'Reilly Media, Inc.
 
 9\. [Sebastian Raschika]The Big LLM Architecture Comparison.(https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison)
+
+---
+comments: false
+---
+
+<!-- DEBUG: Page comments: {{ page.comments }} -->
+<!-- DEBUG: Site comments provider: {{ site.comments.provider }} -->
+<!-- DEBUG: Current environment: {{ jekyll.environment }} -->
