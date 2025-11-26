@@ -18,9 +18,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sujoyp/"
-    - #label: "GitHub"
-      #icon: "fab fa-fw fa-github"
-      #url: "https://github.com/sujoypaul"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sujpaul"
 # DEBUG: Test if comments are processing
 debug_comments: true
 # Theme Settings - USE THIS FOR GITHUB PAGES
@@ -102,4 +102,4 @@ footer:
       url: "https://www.linkedin.com/in/sujoyp/  "
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sujoypaul"
+      url: "https://github.com/sujpaul"
