@@ -6,6 +6,7 @@ tags: [strategy, AI, DL,ROI, Payback Period, Productivity]
 read_time: true          # ✅ Shows estimated reading time (e.g., "7 min read")
 toc: true                # ✅ Enables Table of Contents
 toc_sticky: true         # ✅ Keeps TOC visible as you scroll (nice for long posts)
+comments: false
 ---
 
 
