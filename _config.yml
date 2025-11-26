@@ -77,7 +77,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true     # ← Now this will apply to all posts
-      share: true
+      share: false
       related: true
       toc: true
       toc_sticky: true
