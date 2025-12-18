@@ -88,7 +88,7 @@ The concepts have been categorised into 3 that are listed as : AIComponent, Cont
 
 ***Note***: *I have checked OntoGraf that comes with the installation of Protege.  Just select Window/Tabs/OntoGraf*
 
-![Ontology](/assets/images/intro_strategy/media/ontograf_classes.png)
+![Ontology] (/assets/images/intro_strategy/media/Ontograf_concepts.png)
 Figure 3. Ontograf representation of the Concepts in Protege
 
 The inheritance in blue straight arrows are pointed towards each of the subclasses.  The purple coloured arrows are connected to the nodes contained with diamond-shaped instances of the classes.  By hovering around the arrows between the parent class and the child class it will display in the format: ParentClass – has individual  instance.  For example the arrow between Agent and structureagent it would be represented as Agent – has individual structureagent. The broken arrows in yellow marked between 2 classes as between Agent and LLM is a Property that is being used.  In this case, it is an Object Property which is shown as Agent –usesLLM (Domanin > Range)LLM. 
@@ -160,7 +160,7 @@ Since Properties are tied to individuals, the relationship in Object Properties 
 
 Figure 9 shows how the instance of researchTask in the ontology created is mapped to the agenticai code(introspection_orechestrator.py) in the previous blog.  
 
-![Ontology](/assets/images/intro_strategy/media/researchtaskonto_mapcrewAI.png)
+![Ontology](/assets/images/intro_strategy/media/researchtaskonto_mapcrewai.png)
 
 Figure 9: Addition of other guardrails for researchTask in the ontology, marked in black, that were not present in the code. Items marked in red shows the existence in the code that mapped to the ontology.
 
