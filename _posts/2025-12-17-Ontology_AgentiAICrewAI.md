@@ -21,9 +21,8 @@ Knowledge includes concepts, attributes, axioms and rules that ontology also pro
 
 A knowledgebase[4] can be defined in a 4-tuple format:
 
-$$
 KB = (O,I,inst,instr)   …..  (1) 
-$$
+
 
 Where
 KB= knowledgebase
@@ -33,9 +32,7 @@ Inst = function; also called concept instantiation
 Instr= function; also called relation instantiation
 The conceptualization of knowledge can therefore be facilitated by the creation of ontology. This is represented in a 5-tuple structure[4]
 
-$$
 O:=(C,R,HC,rel,A)    …. (2)
-$$
 
 Where 
 C, R: Concept and relation identifiers
@@ -44,7 +41,7 @@ Function rel: relation which identifies concept as the domain and the range of t
 A: represents the set of axioms
 The representation between knowledgebase and ontology is shown in Figure 1
 
-![AgenticAI](/assets/images/intro_strategy/media/kb_onto.png)
+![Ontology](/assets/images/intro_strategy/media/kb_onto.png)
 
 Figure 1 Representation between knowledgebase and ontology(the diagram has been generated
 
@@ -82,7 +79,7 @@ Since the code for the AgenticAI using CrewAI have already been written I will s
 Everything in Protégé is inherited from owl:Thing.  The classes or concepts that are created are inherited from this so it is easier to categorize the difference concepts.  Both classes and concepts are interchangeably used in this article. This can be seen on the left side of the panel in Protégé where all the classes are listed as in Figure 2. The mapping of 2 of the classes, Crew and Process as per the code in the file  workflow_executor.py is also shown beside it.
 
 
-![AgenticAI](/assets/images/intro_strategy/media/ontoconcepts_mapping.png)
+![Ontology](/assets/images/intro_strategy/media/ontoconcepts_mapping.png)
 
 Figure 2:  The ontological concepts for each of the categories shown in Protege
 
@@ -91,26 +88,26 @@ The concepts have been categorised into 3 that are listed as : AIComponent, Cont
 
 ***Note***: *I have checked OntoGraf that comes with the installation of Protege.  Just select Window/Tabs/OntoGraf*
 
-![AgenticAI](/assets/images/intro_strategy/media/ontograf_classes.png)
+![Ontology](/assets/images/intro_strategy/media/ontograf_classes.png)
 Figure 3. Ontograf representation of the Concepts in Protege
 
 The inheritance in blue straight arrows are pointed towards each of the subclasses.  The purple coloured arrows are connected to the nodes contained with diamond-shaped instances of the classes.  By hovering around the arrows between the parent class and the child class it will display in the format: ParentClass – has individual  instance.  For example the arrow between Agent and structureagent it would be represented as Agent – has individual structureagent. The broken arrows in yellow marked between 2 classes as between Agent and LLM is a Property that is being used.  In this case, it is an Object Property which is shown as Agent –usesLLM (Domanin > Range)LLM. 
 Note: In OWL ObjectProperties connects to other instances while Dataproperties connects to literal values like strings.  There is also AnnotationProperties which allows you to include any additional metadata to add richness
 By right-clicking on the node for Task and then clicking on Show neighbourhood, I can see the following in Figure 4.  I can then add in other nodes and instances to dig deeper into the relationships with Task.
 
-![AgenticAI](/assets/images/intro_strategy/media/Ontograf_Task.png)
+![Ontology](/assets/images/intro_strategy/media/Ontograf_Task.png)
 
 Figure 4. The relationships and the instances of Task and its neighbourhood
 
 From the above figure, summaryAgent is an instance of Agent, which usesLLM and the instance of LLM that it uses is ollamaLLM1.  This, usesLLM, is shown as an ObjectProperty whose domain is Agent and the range is LLM. So all the instances of Agent will make use of this ObjectProperty.  The integration of the ontology layer for  summary_agent as in Figure 4 to the code in introspective_orchestrator.py using the CrewAI framework is shown in Figure 5.
 
-![AgenticAI](/assets/images/intro_strategy/media/summaryagent_onto.png)
+![Ontology](/assets/images/intro_strategy/media/summaryagent_onto.png)
 
 Figure 5. Mapping of summaryAgent to the agenticai code
 
 If I now click on Set as Focus on Task, I can then concentrate on this node and the impact it has on the others.  This is shown in Figure 6.
 
-![AgenticAI](/assets/images/intro_strategy/media/Onto_Task_focus.png)
+![Ontology](/assets/images/intro_strategy/media/Onto_Task_focus.png)
 
 Figure 6. Set to focus on the Task node
 
@@ -122,32 +119,30 @@ merely exhibits dependencies bearing in mind that ontology classes are static st
 In Figure 4, there is a symbol ‘≡’ on the left hand side of Task. 
 This is shown in Figure 7.
 
-![AgenticAI](/assets/images/intro_strategy/media/equivalence_Task_onto.png)
+![Ontology](/assets/images/intro_strategy/media/equivalence_Task_onto.png)
 
 Figure 7. Equivalence of Task
 
 By conditions listed under EquivalentTo are the constrains that are inherited by the sub-classes that instances of these classes must satisfy them.  So these equivalent axioms of Task defines what it is to be a Task.  That means, both the ObjectProperties and the DataProperties listed in Figure 7 defines what it means to be a Task.  These are the necessary and sufficient conditions that each instances of Task will be considered if and only if it satisfies all these conditions.  The reasoner would then infer that it is a Task.  Mathematically, this can be stated as follows:
 
-$$
 Task ≡  (assignedTo exactly 1 Agent)
 ⊓ (hasDescription exactly 1 xsd:string)
 ⊓ (hasExpectedOutput exactly 1 xsd:string)
-$$
+
 
 
 ***Note***: *‘⊓’ means intersection; can also be regarded as ‘and’*
 
 Here the ObjectProperties are the membership constraints that are inherited by subclasses and enforced by instances.  Constraints as you can see tell us where to apply them and provides guardrails and safety and makes the ontology stronger.  So when the reasoner sees that the researchTask is an instance of Task it ensures that it must have:
 
-$$
 exactly assignedTo 1 Agent
 exactly hasDescription 1 string
 exactly hasExpectedOutput 1 string
-$$
+
 
 If its absent then the ontology will be marked as inconsistent.  So in Figure 8, you can see that the instance, researchTask has indeed satisfied the conditions and have additional ObjectProperties, hasInput and produces.
 
-![AgenticAI](/assets/images/intro_strategy/media/researchTaskonto.png)
+![Ontology](/assets/images/intro_strategy/media/researchTaskonto.png)
 
 Figure 8. researchTask as an instance of Task showing the constraints
 
@@ -165,22 +160,22 @@ Since Properties are tied to individuals, the relationship in Object Properties 
 
 Figure 9 shows how the instance of researchTask in the ontology created is mapped to the agenticai code(introspection_orechestrator.py) in the previous blog.  
 
-![AgenticAI](/assets/images/intro_strategy/media/researchtaskonto_mapcrewAI.png)
+![Ontology](/assets/images/intro_strategy/media/researchtaskonto_mapcrewAI.png)
 
 Figure 9: Addition of other guardrails for researchTask in the ontology, marked in black, that were not present in the code. Items marked in red shows the existence in the code that mapped to the ontology.
 
 The extended ontology properties show the additional guardrails that have been added to the ontology for the researchTask instance that are missing in the introspective_orchestrato.py that needs to be added to the code. These properties are marked in black. The Constraint Properties are the ones that must exist for the instance which has been inherited from the class, Task and the properties that are mapped to the agentic ai code are marked in red.
 The mapping of each of the instances of Task with the existing agentic ai code of the previous blog are shown in Figures 10, 11 and 12.
 
-![AgenticAI](/assets/images/intro_strategy/media/equivalence_structureTask_onto.png)
+![Ontology](/assets/images/intro_strategy/media/equivalence_structureTask_onto.png)
 
 Figure 10. Addition of other guardrails for structureTask in the ontology, marked in black, that were not present in the code. Items marked in red shows the existence in the code that mapped to the ontology.
 
-![AgenticAI](/assets/images/intro_strategy/media/equivalence_summaryTask_onto.png)
+![Ontology](/assets/images/intro_strategy/media/equivalence_summaryTask_onto.png)
 
 Figure 11. Addition of other guardrails for summaryTask in the ontology, marked in black, that were not present in the code. Items marked in red shows the existence in the code that mapped to the ontology.
 
-![AgenticAI](/assets/images/intro_strategy/media/equivalence_qualityTask_onto.png)
+![Ontology](/assets/images/intro_strategy/media/equivalence_qualityTask_onto.png)
 Figure 12. Addition of other guardrails for qualityTask in the ontology, marked in black, that were not present in the code. Items marked in red shows the existence in the code that mapped to the ontology.
 
 
