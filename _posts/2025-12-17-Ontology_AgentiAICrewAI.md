@@ -180,7 +180,7 @@ Figure 11. Addition of other guardrails for summaryTask in the ontology, marked 
 Figure 12. Addition of other guardrails for qualityTask in the ontology, marked in black, that were not present in the code. Items marked in red shows the existence in the code that mapped to the ontology.
 
 
-## Conclusions & Future Work{#Conclusions}
+## Conclusions & Future Work
 In this blog I have demonstrated the power of using ontology that explicitly specifies the shared conceptualization and formalizing axioms.  The use of guard rails through equivalence whereby ObjectProperties and Data properties together constitutes what it means to belong to that class.  I have also shown how Protégé can be used to create an ontology and the difference between ontology and OOP.  I have also mapped out the ontology with the agentic ai code using CrewAI framework in the blog:” Creating a Report Summary with CrewAI- framework for AgenticAI” https://github.com/sujpaul/ai_blogsummary
 
 In the next blog, I will discuss the strategy and the implications of developing an ontology for the usage of LLM.
