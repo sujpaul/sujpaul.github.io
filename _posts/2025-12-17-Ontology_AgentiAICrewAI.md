@@ -88,7 +88,8 @@ The concepts have been categorised into 3 that are listed as : AIComponent, Cont
 
 ***Note***: *I have checked OntoGraf that comes with the installation of Protege.  Just select Window/Tabs/OntoGraf*
 
-![Ontology] (/assets/images/intro_strategy/media/Ontograf_concepts.png)
+![Ontology](/assets/images/intro_strategy/media/Ontograf_concepts.png)
+
 Figure 3. Ontograf representation of the Concepts in Protege
 
 The inheritance in blue straight arrows are pointed towards each of the subclasses.  The purple coloured arrows are connected to the nodes contained with diamond-shaped instances of the classes.  By hovering around the arrows between the parent class and the child class it will display in the format: ParentClass – has individual  instance.  For example the arrow between Agent and structureagent it would be represented as Agent – has individual structureagent. The broken arrows in yellow marked between 2 classes as between Agent and LLM is a Property that is being used.  In this case, it is an Object Property which is shown as Agent –usesLLM (Domanin > Range)LLM. 
