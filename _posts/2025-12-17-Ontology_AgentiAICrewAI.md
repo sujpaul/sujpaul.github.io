@@ -102,7 +102,7 @@ Figure 4. The relationships and the instances of Task and its neighbourhood
 
 From the above figure, summaryAgent is an instance of Agent, which usesLLM and the instance of LLM that it uses is ollamaLLM1.  This, usesLLM, is shown as an ObjectProperty whose domain is Agent and the range is LLM. So all the instances of Agent will make use of this ObjectProperty.  The integration of the ontology layer for  summary_agent as in Figure 4 to the code in introspective_orchestrator.py using the CrewAI framework is shown in Figure 5.
 
-![Ontology](/assets/images/intro_strategy/media/summaryagent_onto.png)
+![Ontology](/assets/images/intro_strategy/media/onto_summaryagent.png)
 
 Figure 5. Mapping of summaryAgent to the agenticai code
 
