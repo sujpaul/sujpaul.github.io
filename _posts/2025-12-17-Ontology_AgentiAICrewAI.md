@@ -48,29 +48,61 @@ Figure 1 Representation between knowledgebase and ontology(the diagram has been 
 ***Note***: *As we develop the ontology you will see that ontology is created based on language based axioms that needs to be formalised.  It’s based on an open-ended view of the world where everything is allowed till you place restrictions and constraints in the development*
 
 Ontology therefore provides a structured format to represent the knowledge.
-Based on equation 1, an ontology consists of concepts.  Classes represent concepts that are in the domain[6].  Classes have instances similar to the instances in object-oriented programming programs(OOPs).  As with OOPs, an instance is a child of the Class that can be identified as ‘is-a’ relationship and also inherits the Properties which can be regarded ‘part-of’.  Although, object-modeling of ontology might sound similar to OOP, the differences between the 2 are listed below:
-CLASSES:
-Ontology: Also known as concepts; used for classification.  The purpose is for logical categorization which is the main difference with OOP.  Instances or individuals can inherit classes.
-OOP: They also define categories of objects which are instances of classes
-PROPERTIES
-Ontology: They are first-class-citizens.  They act as independent entities with their own logic and can also have sub-properties which facilitates inheritance of properties but not from classes. There are 2 kinds of properties: Object and Data. The former establishes binary relationships between 2 instances and Data properties link to literals.  
-OOP: The attributes in classes are regarded as properties and hence unlike ontology is owned by the classes.
-INSTANCES
-Ontology: Specific members of a class.  However, unlike OOP ontology can infer whether an instance belongs to a class by reasoning through the properties.
-OOP: Similar to the ontology where an object is an instance of a class.
-INHERITANCE
-Ontology: SubClassof a class and supports multiple inheritance.  Ontology inheritance facilitates reasoning due to set inclusion and is used for logical reasoning unlike OOP.  
-OOP: Objects created from the class inherits both the attributes and methods of the class.  There is no reasoning.  The developer has to build in logic in the program.
-AXIOMS & FUNCTIONS:
-Ontology: Axioms are logical constraints.  They are declarative constraints what must be true are declared. Functions are not a standard OWL construct
-OOP: Methods and functions define the behaviour of objects and are executable code and unlike Ontology states how to do things.
-OPEN-WORLD ASSUMPTION(OWA) vs CLOSE-WORLD ASSUMPTION(CWA)
-Ontology: Ontology is OW. If a fact is not stated or inferred that means it is unknown.  It does not mean false This means it allows for non-monotonic reasoning (NMR) by allowing conclusions later to be adjusted should new facts arrive.  This makes it more flexible and robust.  
-OOP: This only allows CWA.  So if a fact in not present in the program or database it is considered false.
-REASONER:
-Ontology:  it can classify individuals, infer new class memberships and check for ontology consistency.  Relationships are explicitly defined. Reasoning by deduction is automatic
-OOP:  programmers has to manually enter the logic in the code. Reasoning has to be built-in by the programmer.
+Based on equation 1, an ontology consists of concepts.  Classes represent concepts that are in the domain[6].  Classes have instances similar to the instances in object-oriented programming programs(OOPs).  As with OOPs, an instance is a child of the Class that can be identified as ‘is-a’ relationship and also inherits the Properties which can be regarded ‘part-of’.  Although, object-modeling of ontology might sound similar to OOP, the differences between the 2 are listed below in Table 1:
 
+<table>
+<thead>
+<tr class="header">
+<th>ASPECT</th>
+<th>ONTOLOGY</th>
+<th>OBJECT-ORIENTED PROGRAMMING (OOP)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CLASSES</strong></td>
+<td><strong>Also known as concepts; used for classification.</strong> The purpose is for logical categorization which is the main difference with OOP. Instances or individuals can inherit classes.</td>
+<td>They also define categories of objects which are instances of classes.</td>
+</tr>
+<tr class="even">
+<td><strong>PROPERTIES</strong></td>
+<td><strong>They are first-class citizens.</strong> They act as independent entities with their own logic and can also have sub-properties which facilitates inheritance of properties but not from classes. There are 2 kinds of properties: <strong>Object</strong> and <strong>Data</strong>. The former establishes binary relationships between 2 instances and Data properties link to literals.</td>
+<td>The attributes in classes are regarded as properties and hence unlike ontology are owned by the classes.</td>
+</tr>
+<tr class="odd">
+<td><strong>INSTANCES</strong></td>
+<td><strong>Specific members of a class.</strong> However, unlike OOP ontology can infer whether an instance belongs to a class by reasoning through the properties.</td>
+<td>Similar to the ontology where an object is an instance of a class.</td>
+</tr>
+<tr class="even">
+<td><strong>INHERITANCE</strong></td>
+<td><strong>SubClassof a class and supports multiple inheritance.</strong> Ontology inheritance facilitates reasoning due to set inclusion and is used for logical reasoning unlike OOP.</td>
+<td>TObjects created from the class inherits both the attributes and methods of the class.  There is no reasoning.  The developer has to build in logic in the program.</td>
+</tr>
+<tr class="odd">
+<td><strong>AXIOMS & FUNCTIONS</strong></td>
+<td><strong>Axioms are logical constraints.</strong>  They are declarative constraints what must be true are declared. Functions are not a standard OWL construct.</td>
+<td>Methods and functions define the behaviour of objects and are executable code and unlike Ontology states how to do things.</td>
+</tr>
+<tr class="even">
+<td><strong>OPEN-WORLD ASSUMPTION(OWA) vs CLOSE-WORLD ASSUMPTION(CWA)</strong></td>
+<td><strong>Ontology is OWA.</strong>  If a fact is not stated or inferred that means it is unknown.  It does not mean false This means it allows for non-monotonic reasoning (NMR) by allowing conclusions later to be adjusted should new facts arrive.  This makes it more flexible and robust.</td>
+<td>This only allows CWA.  So if a fact in not present in the program or database it is considered false.</td>
+</tr>
+<tr class="odd">
+<td><strong>OPEN-WORLD ASSUMPTION(OWA) vs CLOSE-WORLD ASSUMPTION(CWA)</strong></td>
+<td><strong>Ontology is OWA.</strong>  If a fact is not stated or inferred that means it is unknown.  It does not mean false This means it allows for non-monotonic reasoning (NMR) by allowing conclusions later to be adjusted should new facts arrive.  This makes it more flexible and robust.</td>
+<td>This only allows CWA.  So if a fact in not present in the program or database it is considered false.</td>
+</tr>
+<tr class="even">
+<td><strong>REASONER</strong></td>
+<td><strong>It can classify individuals, infer new class memberships and check for ontology consistency.</strong>  Relationships are explicitly defined. Reasoning by deduction is automatic.</td>
+<td>Programmers has to manually enter the logic in the code. Reasoning has to be built-in by the programmer.</td>
+</tr>
+</tbody>
+</table>
+
+Table 1: Differences between Ontology and OOP
 
 ### Creating the Ontology using Protégé
 
