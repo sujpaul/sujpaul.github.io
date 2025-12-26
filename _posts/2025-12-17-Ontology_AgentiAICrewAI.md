@@ -90,11 +90,6 @@ Based on equation 1, an ontology consists of concepts.  Classes represent concep
 <td>This only allows CWA.  So if a fact in not present in the program or database it is considered false.</td>
 </tr>
 <tr class="odd">
-<td><strong>OPEN-WORLD ASSUMPTION(OWA) vs CLOSE-WORLD ASSUMPTION(CWA)</strong></td>
-<td><strong>Ontology is OWA.</strong>  If a fact is not stated or inferred that means it is unknown.  It does not mean false This means it allows for non-monotonic reasoning (NMR) by allowing conclusions later to be adjusted should new facts arrive.  This makes it more flexible and robust.</td>
-<td>This only allows CWA.  So if a fact in not present in the program or database it is considered false.</td>
-</tr>
-<tr class="even">
 <td><strong>REASONER</strong></td>
 <td><strong>It can classify individuals, infer new class memberships and check for ontology consistency.</strong>  Relationships are explicitly defined. Reasoning by deduction is automatic.</td>
 <td>Programmers has to manually enter the logic in the code. Reasoning has to be built-in by the programmer.</td>
