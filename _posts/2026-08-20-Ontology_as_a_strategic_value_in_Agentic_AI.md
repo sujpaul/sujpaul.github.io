@@ -217,21 +217,19 @@ Ontology localizes change. Ontology reduces debt by:
 </tbody>
 </table>
 
-Debt Source	Ontology Control
-Hidden assumptions	Explicit axioms
-Duplicate logic	Shared semantics
-Fragile pipelines	Typed relationships
-Hard-coded rules	Declarative constraints
-This is design-time prevention, not cleanup.
 Without ontology:
-•	Systems are cheaper initially
-•	Cost explodes at scale
+
+Systems are cheaper initially
+Cost explodes at scale
+
 With ontology:
-•	Higher upfront discipline
-•	Lower lifetime cost
-•	Sustainable advantage
+
+Higher upfront discipline
+Lower lifetime cost
+Sustainable advantage
 Competitors optimize speed.
 You optimize structure.
+
 Ontology is the only scalable way to prevent Agentic AI systems from accumulating irreversible technical and data debt.
 
 ## Conclusions
