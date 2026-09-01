@@ -90,15 +90,15 @@ Task consumes Artifact(Content)
 
 ![Ontology](/assets/images/Ontology_strategy/Figure5_Task.png)
 
-Figure 5. Diagram showing the elimination of wastes of Lean using ontology in agentic ai
+Figure 5. Diagram showing Task is a subclass of CrewAgenticAI and the corresponding data and objectproperties
 
 ![Ontology](/assets/images/Ontology_strategy/Figure6_summaryTask.png)
 
-Figure 6. Diagram showing the elimination of wastes of Lean using ontology in agentic ai
+Figure 6. Property assertions of summary Task which is of type Task
 
 ![Ontology](/assets/images/Ontology_strategy/Figure7_Summary.png)
 
-Figure 7. Diagram showing the elimination of wastes of Lean using ontology in agentic ai
+Figure 7. Diagram showing Summary, a subclass of Content
 
 1.	Separation of Concerns: The artifact (Summary) is separate from its content (hasSummaryText)
 2.	Extensibility: You can add more metadata to Summary without changing the text
@@ -240,16 +240,27 @@ In this article I described how ontology can drive strategic value.  Ontology pr
 
 REFERENCES
 
-1\.	https://sujpaul.github.io/agenticai/crewai/ontology/protege/equivalence/constraints/Ontology_AgentiAICrewAI/
+1\.https://sujpaul.github.io/agenticai/crewai/ontology/protege/equivalence/constraints/Ontology_AgentiAICrewAI/
+
 2\.	Chandler, A. D. (1962). Strategy and Structure: Chapters in the History of the Industrial Enterprise. MIT Press.
+
 3\.	Mintzberg, H. (1987). The Strategy Concept I: Five Ps for Strategy. California Management Review.
+
 4\.	Galbraith, J. R. (2014). Designing Organizations: Strategy, Structure, and Process at the Business Unit and Enterprise Levels. Jossey-Bass.
+
 5\.	Gruber, T.H., “Towards principles for the design of ontologies used for knowledge sharing”, International journal of Human-Computer Studies, 43(5/6), 2001
+
 6\.	https://medium.com/@vincenzoboellis/understanding-the-web-ontology-language-owl-a-deep-dive-a46abbcafec1
+
 7\.	https://www.w3.org/OWL/
+
 8\.	https://sujpaul.github.io/agenticai/crewai/ontology/protege/equivalence/constraints/Ontology_AgentiAICrewAI/
+
 9\.	Bodenreider, O. (2004). The Unified Medical Language System (UMLS). Nucleic Acids Research.
+
 10\. Smith, B. et al. (2007). The OBO Foundry. Nature Biotechnology.
+
 11\. Porter, M. E. (1996). What Is Strategy? Harvard Business Review, 74(6), 61-78.
+
 12\. Sypherd, C., Belle, V. Practical Considerations for Agentic LLM Systems, https://arXiv.org/abs/2412.04093
 
