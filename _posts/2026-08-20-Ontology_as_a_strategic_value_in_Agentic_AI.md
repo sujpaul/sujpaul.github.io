@@ -167,14 +167,9 @@ The semantic control layer that ontology provides between the application and th
 
 ### Technical and Debt Debit
 
-“Trade-offs are essential to strategy.”
-Technical debt exists when:
-•	Short-term choices violate long-term structure
-Ontology forces structural trade-offs upfront, which:
-•	Reduce future costs
-•	Preserve strategic coherence
+Technical debt exists when short-term choices violate long-term structure. Ontology forces structural trade-offs upfront, and hence reduces future costs and preserves strategic coherence.
 
-Without ontology in agentic ai, technical debt hides in prompts, ithout ontology in agentic AI systems, technical debt accumulates silently and structurally, embedding itself across multiple layers of the architecture rather than in a single component. Business rules are hard-coded directly into prompts, making them brittle, opaque, and tightly coupled to specific tasks or models. Orchestration logic evolves into custom “glue code” that encodes implicit assumptions about agent behavior, data formats, and execution order. Validation is handled through ad hoc checks scattered across pipelines, while debugging depends on manual inspection of logs, prompts, and intermediate outputs because there is no shared semantic contract defining what should have happened.
+Without ontology in agentic ai, technical debt hides in prompts, without ontology in agentic AI systems, technical debt accumulates silently and structurally, embedding itself across multiple layers of the architecture rather than in a single component. Business rules are hard-coded directly into prompts, making them brittle, opaque, and tightly coupled to specific tasks or models. Orchestration logic evolves into custom “glue code” that encodes implicit assumptions about agent behavior, data formats, and execution order. Validation is handled through ad hoc checks scattered across pipelines, while debugging depends on manual inspection of logs, prompts, and intermediate outputs because there is no shared semantic contract defining what should have happened.
 
 As more agents are added, complexity grows exponentially rather than linearly. Each new agent must interpret meaning independently, translate inputs into its own internal representation, and produce outputs that downstream agents must again reinterpret. This multiplies integration points, increases failure modes, and amplifies ambiguity. Small changes in one agent’s prompt or output format ripple unpredictably across the system, forcing rework and fragile workarounds instead of controlled extension. Scaling, therefore, often requires partial or complete rewrites rather than reuse, because knowledge is embedded in prompts and code rather than expressed as reusable structure.
 In the absence of ontology, the system lacks a shared semantic backbone, so governance, validation, and evolution become reactive rather than designed. Technical debt hides not in obvious errors, but in the growing effort required to reason about the system, onboard new agents, and maintain alignment with business or regulatory intent. Ontology is what arrests this exponential growth by externalizing meaning, constraints, and expectations—without it, every additional agent compounds debt instead of capability.
@@ -184,13 +179,17 @@ In the absence of ontology, the system lacks a shared semantic backbone, so gove
 Agentic AI systems:
 
 •	Reuse outputs as inputs
+
 •	Chain reasoning
+
 •	Create feedback loops
 
 Debt compounds because:
 
 •	One bad assumption propagates
+
 •	Errors amplify downstream
+
 •	Fixes require global changes
 
 Ontology localizes change. Ontology reduces debt by:
