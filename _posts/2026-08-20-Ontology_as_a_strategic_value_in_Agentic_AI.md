@@ -178,19 +178,19 @@ In the absence of ontology, the system lacks a shared semantic backbone, so gove
 
 Agentic AI systems:
 
-•	Reuse outputs as inputs
+Reuse outputs as inputs
 
-•	Chain reasoning
+Chain reasoning
 
-•	Create feedback loops
+Create feedback loops
 
 Debt compounds because:
 
-•	One bad assumption propagates
+One bad assumption propagates
 
-•	Errors amplify downstream
+Errors amplify downstream
 
-•	Fixes require global changes
+Fixes require global changes
 
 Ontology localizes change. Ontology reduces debt by:
 
